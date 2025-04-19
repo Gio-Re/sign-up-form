@@ -9,25 +9,46 @@
 </head>
 <body>
     <div class="image-side">
-        <div class="logo"></div>
-        <div class="credit"></div>
+        <div class="logo"><img id="odin" src="./images/odin-lined.png" alt="Odin"><div id="odin-text">Odin</div></div>
+        <div class="credit"><p>Foto di Meriç Dağlı @ Unsplash</p></div>
     </div>
     <div class="form-side">
-        <div class="intro"></div>
+        <div class="intro"><h2>Non è un vero servizio online! Progetto The Odin Project di formattazione pagina di registrazione. Registrati Ora!</h2><h2>Sai che lo vuoi</h2></div>
         <div class="sign-up-data">
-            <form action="">
-                <label for="firstname">Nome*</label>
-                <input type="text" name="user-firstname" id="firstname" required />
-                <label for="lastname">Cognome*</label>
-                <input type="text" name="user-lastname" id="laststname" required />
-                <label for="mail">Email*</label>
-                <input type="email" name="user-email" id="mail" required />
-                <label for="tel">Telefono</label>
-                <input type="tel" name="user-phone-number" id="tel">
-
+            <h2>Let's Do It</h2>
+            <form id="user-data">
+                <div class="input-data">
+                    <div class="input">
+                        <label for="firstname">Nome*</label>
+                        <input type="text" name="user-firstname" id="firstname" required>
+                    </div>
+                    <div class="input">
+                        <label for="lastname">Cognome*</label>
+                        <input type="text" name="user-lastname" id="laststname" required>
+                    </div>
+                    <div class="input">
+                        <label for="mail">Email*</label>
+                        <input type="email" name="user-email" id="mail" required>
+                    </div>
+                    <div class="input">
+                        <label for="tel">Telefono</label>
+                        <input type="tel" name="user-phone-number" id="tel">
+                    </div>
+                    <div class="input">
+                        <label for="pw">Password*</label>
+                        <input type="password" name="user-password" id="pw" required>
+                    </div>
+                    <div class="input">
+                        <label for="confirm-pw">Confirm Password*</label>
+                        <input type="password" name="user-confirm" id="confirm-pw" required>
+                    </div>
+                </div>
             </form>
         </div>
-        <div></div>
+        <div class="sign-up-btn">
+            <button type="submit" form="user-data">Crea Account</button>
+            <p>Alreadyt have an account? <a href="">Login</a></p>
+        </div>
     </div>
 </body>
 </html>

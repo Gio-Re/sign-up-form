@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "odin";
+    src: 
+        url(./fonts/norse-bold-webfont.woff2) format("woff2"),
+        url(./fonts/norse-bold-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0 15vw;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.image-side {
+    background-image: url(./images/seasidepic.jpg);
+    background-size: cover;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+
+.logo {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+#odin {
+    width: 10vh;
+    height: auto;
+}
+
+#odin-text {
+    font-family: "odin";
+    font-size: 10vh;
+    color: white;
+}
+
+.credit {
+    text-align: center;
+    font-size: 12px;
+}
+
+.form-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro,
+.sign-up-btn {
+    padding: 1.5vh 5vh;
+    height: 30vh;
+    background-color: rgb(164, 236, 236);
+}
+
+.sign-up-data {
+    padding: 1.5vh 5vh;
+    height: 31vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.sign-up-data {
+    background-color: azure;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.sign-up-btn {
+    font-weight:normal;
+    box-shadow: inset 0px 5px 10px -5px rgba(0, 0, 0, 0.5);
+}
+
+.input-data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap: 25px;
+    row-gap: 15px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+input {
+    appearance: none;
+    border-radius: 5px;
+    height: 1.5rem;
+    border: 1px solid gray;
+    font-family: inherit;
+    font-size: 1.2rem;
+}
+
+input:focus {
+    background-color: rgb(218, 237, 250);
+    border: 1px solid blue;
+}
+
+input:user-invalid {
+    border: 1px solid red;
+}
+
+button {
+    background-color: rgb(108, 201, 201);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: rgb(5, 56, 49);
+    padding: 0.5rem 1.5rem;
+    margin-top: 2rem;
+}
+
+a:link {
+    text-decoration: none;
+    color: blue;
+}
+
+a:visited {
+    color: rgb(79, 136, 136);
+}
+
